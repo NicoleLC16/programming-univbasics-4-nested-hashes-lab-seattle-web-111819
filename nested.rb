@@ -89,7 +89,8 @@ n = {
     :languages => ["LISP", "C"]
   }
   
-  programmer_hash.merge!
+  programmer_hash.merge!(n)
+  programmer_hash
 }
     
 end
